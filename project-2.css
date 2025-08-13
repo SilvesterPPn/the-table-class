@@ -1,0 +1,140 @@
+table {
+    border-collapse: collapse;
+}
+ 
+
+
+.navbar__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav__list li {
+    margin-right: 50px;
+    color: hsl(176, 88%, 27%);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav__bar-logo {
+    margin-left: 35px;
+    padding-block: 1rem;
+}
+
+.logo {
+    width: 120px;
+    height: 130px;
+}
+
+.login-sign-in {
+    margin-right: 20px;
+    padding-block: 1rem;
+
+}
+
+.logs {
+    color: hsl(154, 13%, 32%);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+
+
+.product__container {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 2rem;
+    justify-content: center;
+    border: 1px solid hsl(135, 15%, 90%);
+    border-radius: 0.6rem;
+}
+
+.products__title {
+    margin-bottom: 0.845rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: hsl(154, 13%, 32%);
+}
+
+.span__title {
+    color: hsl(176, 88%, 27%)
+}
+
+.table__details tr th {
+    font-size: 0.835rem;
+    color: hsl(60, 1%, 56%);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.product__img {
+    width: 80px;
+}
+
+.products__items tr td {
+    padding-inline: 2rem;
+    color: hsl(154, 13%, 32%);
+}
+
+.table__details tr th,
+.table__details tr td {
+    border: 1px solid hsl(135, 15%, 90%);
+    align-items: center;
+} 
+
+.product__name {
+    color:  hsl(176, 88%, 27%);
+    font-weight: 400;
+}
+
+.new__price {
+    color: hsl(176, 88%, 27%);
+    font-weight: 700;
+}
+
+.old__price {
+    text-decoration: line-through;
+    color: hsl(60, 1%, 56%);
+}
+
+
+.ratings {
+    color: hsl(42, 100%, 50%);
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-block: 1rem;
+}
+
+.btn__link {
+    margin-right: 20px;
+}
+
+.btn {
+    height: 40px;
+    color: hsl(154, 13%, 32%);
+    border: 1px solid hsl(176, 88%, 27%);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    color: hsl(176, 88%, 27%);
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+table {
+    border-collapse: collapse;
+}
+
+.products__container {
+    display: grid;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 2rem;
+}
+
+.products__title {
+    align-items: center;
+    margin-block: 1rem;
+}
+
+.title {
+    font-weight: 500;
+    color: hsl(154, 13%, 32%);
+    font-size: 1.5rem;
+}
+
+.span__title {
+    color: hsl(176, 88%, 27%);
+}
+
+.products__item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.table__items tr th,
+.table__items tr td {
+    padding-block: 1.5rem;
+    border: 1px solid hsl(135, 15%, 20%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table__items tr th {
+    font-size: 0.835rem;
+    color: hsl(60, 1%, 56%);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.table__items tr td {
+    padding-inline: 1rem;
+    color: hsl(154, 13%, 32%);
+}
+
+.product__name {
+    color: hsl(176, 88%, 27%);
+}
+
+.new__price {
+    color: hsl(176, 88%, 27%);
+    font-weight: 600;
+}
+
+.old__price {
+    text-decoration: line-through;
+}
+
+.ratings {
+    color: hsl(42, 100%, 50%);
+}
+
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    height: 40px;
+    width: 100;
+    color: hsl(176, 88%, 27%);
+    border-radius: 10px;
+    border: 1px solid hsl(135, 15%, 20%);
+}
+
+.btn:hover {
+    font-weight: 500;
+    background-color: hsl(176, 88%, 27%);
+    cursor: pointer;
+    color: hsl(60, 1%, 56%);
+}
+
+
+.product__img {
+    width: 80px;
+}
