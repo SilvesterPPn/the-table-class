@@ -133,8 +133,15 @@ table {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .product__container {
+        max-width: 350px;
+    }
+}
+
 .btn:hover{
     color: hsl(176, 88%, 27%);
     font-weight: 600;
     cursor: pointer;
+
 }
